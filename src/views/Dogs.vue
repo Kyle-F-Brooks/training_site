@@ -1,18 +1,18 @@
 <template>
-    <div>
-        <b-table striped hover :items="dogs" />
-    </div>
+  <div>
+    <b-table striped hover :items="dogs" />
+  </div>
 </template>
 
 <script>
 import dogs from '@/data/dogs'
 export default {
-    data() {
-        return {
-            items: [
-                dogs
-            ]
-        }
+  data () {
+    return {
+      items: [
+        dogs
+      ]
     }
+  }
 }
 </script>
